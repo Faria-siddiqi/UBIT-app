@@ -110,17 +110,17 @@ nav .bi {
 
 
   nav img {
-    width: 30%;
+    width: 22%;
   }
 
 }
 
 .Container {
   width: 80%;
-  height: 500px;
+  height: 448px;
   position: relative;
   /* opacity: 0.5; */
-  margin: 20px auto;
+  margin: 40px auto;
   background: rgba(204, 203, 203, 0.875);
   box-shadow: 0 0 20px 4px #666c68;
   border-radius: 13px;
@@ -135,7 +135,7 @@ nav .bi {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 5%;
+  margin-top: 1%;
 }
 
 .Content h1 {
@@ -145,13 +145,14 @@ nav .bi {
   font-weight: 900;
   text-shadow: 4px 4px 10px #17572f;
   font-family: 'Combo', cursive;
+  margin-top: 2%;
 }
 
 .Content h2 {
   font-size: 25px;
   color: #17572f;
   /* text-align: center; */
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .programs-content {
@@ -186,6 +187,7 @@ nav .bi {
 
 @media (max-width:950px) {
   .Content h1 {
+    margin-top: 6%;
     font-size: 25px;
   }
 
@@ -213,10 +215,11 @@ nav .bi {
 @media(max-width:500px) {
   .Content h1 {
     font-size: 15px;
+    margin-top: 3%;
   }
 
   .Content h2 {
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 2%;
   }
 

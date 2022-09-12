@@ -3,7 +3,6 @@
     padding: 0;
     scroll-behavior: smooth;
     font-family: 'Source Sans Pro', sans-serif;
-
     overflow-x: hidden;
 }
 
@@ -48,7 +47,7 @@ nav img {
     text-decoration: none;
     font-size: 20px;
     font-weight: bolder;
-    font-family: 'Source Sans Pro', sans-serif; 
+    font-family: 'Source Sans Pro', sans-serif;
     transition: 0.5s ease;
 
 }
@@ -110,7 +109,7 @@ nav .bi {
 
 
     nav img {
-        width: 30%;
+        width: 22%;
     }
 
 }
@@ -135,11 +134,11 @@ nav .bi {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .Content h1 {
-    font-size: 40px;
+    font-size: 35px;
     /* text-align: center; */
     color: white;
     font-weight: 900;
@@ -148,27 +147,30 @@ nav .bi {
 }
 
 .Content h2 {
-    font-size: 25px;
+    font-size: 22px;
     color: #17572f;
     /* text-align: center; */
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
 }
 
 .programs-content {
 
-    margin: 60px auto;
+    margin: 40px auto;
 }
 
-.programs-content p{
-    padding: 3%;
+.programs-content p {
+    padding: 4%;
     width: 100%;
     text-align: center;
     font-weight: 600;
-    
+    font-size: 17px;
+
 }
 
-.programs-content h3{
-    font-size: 15px;
+.programs-content h3 {
+    font-size: 20px;
+    text-align: center;
 }
 
 
@@ -193,49 +195,52 @@ nav .bi {
         font-size: 15px;
         margin-top: 2%;
     }
+
     .Content h2 {
         font-size: 14px;
-        
+
     }
 
-    
-    .programs-content p{
+
+    .programs-content p {
         /* padding: 5%; */
-        text-align: left;
         font-size: 12px;
         margin-top: 4%;
-        
+
     }
-    
-    .programs-content h3{
-        font-size: 12px;
+
+    .programs-content h3 {
+        font-size: 15px;
     }
-    
+
 }
-@media (max-width:450px){
-    .Content{
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       padding: 6%;
+
+@media (max-width:450px) {
+    .Content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 6%;
     }
+
     .Content h1 {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .Content h2 {
-        font-size: 10px;
+        font-size: 12px;
         margin-top: 2%;
     }
-    .programs-content p{
-       
-        
-        font-size: 10px;
+
+    .programs-content p {
+
+
+        font-size: 11px;
         /* margin-top: 4%; */
-        
+
     }
-    
-    .programs-content h3{
-        font-size: 8px;
+
+    .programs-content h3 {
+        font-size: 12px;
     }
 }
