@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Login</title>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="form-box">
+            <div class="btn-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <form action="" id="login" class="input-log">
+                <input type="text" name="email" class="input-feild" placeholder="Email" required>
+                <input type="password" name="pssword" class="input-feild" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn" onclick="loginsuccess()">Log in </button>
+            </form>
+            <form action=""  id="register" class="input-reg">
+                <input type="text" id="fname" name="fname" class="input-feild" placeholder="First Name" required>
+                <input type="text" id="lname" name="lname" class="input-feild" placeholder="Last Name" required>
+                <input type="email" id="email" name="email" class="input-feild" placeholder="Email" required>
+                <input type="password" id="password" name="pssword" class="input-feild" placeholder="Enter Password" required>
+                <input type="password" name="pssword" class="input-feild" placeholder="Re-write Password" required>
+                 <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+                <button type="submit" class="submit-btn" onclick="registerUser()">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>

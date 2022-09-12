@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva;
+    
+    font-size: 14px;
+
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(79, 79, 79, 0.52), rgba(40, 50, 35, 0.73)), url(images/ubit2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.form-box {
+    width: 380px;
+    height: 500px;
+    position: relative;
+    /* opacity: 0.5; */
+    margin: 6% auto;
+    background: rgba(204, 203, 203, 0.875);
+    box-shadow: 0 0 20px 4px #666c68;
+    border-radius: 13px;
+    padding: 5px;
+
+    overflow: hidden;
+}
+
+.btn-box {
+    width: 224px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #abd7c2;
+    border-radius: 30px;
+}
+
+.toggle-btn {
+    padding: 15px 30px;
+    font-size: 12px;
+    font-weight: bolder;
+
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 114px;
+    height: 100%;
+    background: linear-gradient(to right, #478d77, #a5a4a1);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.input-log {
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+
+.input-reg {
+    top: 110px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+
+.input-feild {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid rgb(85, 100, 96);
+    outline: none;
+    background: transparent;
+}
+
+.input-feild:focus {
+
+    border-bottom: 2px solid rgb(147, 249, 222);
+
+}
+
+.input-feild:valid {
+    border-bottom: 2px solid rgb(147, 249, 222);
+
+}
+
+.submit-btn {
+    width: 85%;
+    padding: 15px 40px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bolder;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #478d77, #a5a4a1);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box {
+    margin: 30px 10px 30px 0;
+}
+
+span {
+    color: #777;
+    font-size: 12px;
+    bottom: 74px;
+    position: absolute;
+
+}
+
+#login {
+    left: 50px;
+}
+
+#register {
+    left: 450px;
+}
+
+@media (max-width:950px) {
+    .form-box {
+        width: 380px;
+        height: 500px;
+
+        margin: 100px auto;
+
+    }
+}
+
+@media (max-width:464px) {
+    .form-box {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        margin: 20px auto;
+        background: none;
+        box-shadow: none;
+
+    }
+
+    .input-feild {
+        width: 91%;
+
+
+    }
+
+    
+    span {
+        color: white;
+        font-size: 9px;
+    }
+    ::placeholder{
+        color: white;
+        font-size: 10px;
+    }
+
+    .toggle-btn {
+        color: black;
+    }
+
+    .input-feild {
+        font-size: 15px;
+    }
+}
