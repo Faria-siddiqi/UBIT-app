@@ -82,6 +82,8 @@ nav img {
     font-weight: 900;
     text-shadow: 4px 4px 10px #17572f;
     font-family: 'Combo', cursive;
+    /* font-family: 'Bungee Spice', cursive; */
+    /* font-family: 'Source Sans Pro', sans-serif; */
 
 
 
@@ -211,17 +213,22 @@ nav .bi {
 }
 
 /* ----objective------ */
+.Objective-Container {
+    width: 100%;
+    background: linear-gradient(#aac4ba, #ffe8e8);
+    padding: 40px 0 20px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+
+}
 
 .objective {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 70px;
-    font-family: 'Fira Sans', sans-serif;
-    font-family: 'Kanit', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Work Sans', sans-serif;
-
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Dangrek', cursive;
 
 
 }
@@ -229,17 +236,18 @@ nav .bi {
 h1 {
     font-size: 40px;
     font-weight: 900;
-    color: #182e24;
+    color: black;
 }
 
 p {
-    color: #777;
+    color: #674949;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 22px;
     padding: 10px;
 }
 
+/* ....Programs... */
 .row {
     margin-top: 5%;
     display: flex;
@@ -288,10 +296,8 @@ p {
     margin: auto;
     text-align: center;
     padding-top: 40px;
-    font-family: 'Fira Sans', sans-serif;
-    font-family: 'Kanit', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Dangrek', cursive;
 
 }
 
@@ -333,10 +339,8 @@ p {
     margin: auto;
     text-align: center;
     padding-top: 40px;
-    font-family: 'Fira Sans', sans-serif;
-    font-family: 'Kanit', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Dangrek', cursive;
 }
 
 .faci-img {
@@ -478,26 +482,117 @@ p {
 
 /* -------footer------- */
 
-.footer {
+footer {
     width: 100%;
-    text-align: center;
-    padding: 30px 0;
+    height: 100%;
+    background: linear-gradient(#ffe8e8, #aac4ba);
+    padding: 120px 0 30px;
+    /* border-top-left-radius: 100px; */
+    border-top-right-radius: 100px;
+    /* line-height: 20px; */
 }
 
-.footer h4 {
-    margin-bottom: 25px;
-    margin-top: 20px;
-    font-weight: 600;
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Dangrek', cursive;
+    /* padding: 10% 3%; */
+
 }
 
-.line {
-    background-color: black;
-    height: 1px;
+.footer h2 {
+
+    font-size: 25px;
+    margin-bottom: 5%;
+    text-shadow: 4px 4px 10px #ffffff;
+
 }
 
-.icons .bi {
-
-    margin: 0 13px;
+.footer p {
+    color: #674949;
+    font-weight: 900;
     cursor: pointer;
-    padding: 18px 0;
+    transition: 0.5 ease;
+
+
+
+}
+
+.footer p:hover {
+    color: #a55959;
+    text-shadow: 4px 4px 10px #ffffff;
+}
+
+.icons {
+    font-size: 20px;
+    text-align: center;
+    padding: 3%;
+    text-shadow: 4px 4px 10px #ffffff;
+    color: #674949;
+    cursor: pointer;
+}
+
+.icons i {
+    padding: 3%;
+    transition: 0.5 ease;
+}
+
+.icons-container {
+    padding: 3% 38%;
+    margin-bottom: -66px;
+}
+
+.icons .bi:hover {
+    color: black;
+}
+
+@media(max-width:780px) {
+    footer {
+        width: 100%;
+        height: 100%;
+        padding: 37px 0 20px;
+        margin-top: 15%;
+
+    }
+
+    .footer {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .footer h2 {
+
+        font-size: 20px;
+        margin-bottom: 0;
+        text-align: center;
+
+
+    }
+
+    .footer p {
+        font-size: 12px;
+
+
+
+    }
+
+    .icons {
+
+        font-size: 15px;
+        padding: 3%;
+
+    }
+
+    .icons .bi {
+        width: 50%;
+    }
+
+    .icons-container {
+        padding: 4% 25%;
+        margin-bottom: -29px;
+    }
 }
